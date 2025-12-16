@@ -45,24 +45,6 @@ export function HeroSection() {
                 <Link href="#contact">Get In Touch</Link>
               </Button>
             </div>
-
-            <div className="flex gap-3 pt-4 justify-center lg:justify-start">
-              {[
-                { href: "https://github.com/egadestaviano", icon: <Github className="h-5 w-5" />, label: "GitHub" },
-                { href: "mailto:pastilaku121@gmail.com", icon: <Mail className="h-5 w-5" />, label: "Email" },
-              ].map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  target={item.href.startsWith("http") ? "_blank" : undefined}
-                  rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="h-11 w-11 inline-flex items-center justify-center rounded-lg border border-border bg-card hover:bg-secondary hover:border-primary/20 text-muted-foreground hover:text-primary transition-all duration-300"
-                >
-                  {item.icon}
-                  <span className="sr-only">{item.label}</span>
-                </Link>
-              ))}
-            </div>
           </div>
           
         </div>

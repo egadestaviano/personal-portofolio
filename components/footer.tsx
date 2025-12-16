@@ -81,12 +81,6 @@ export function Footer() {
             </h4>
             <div className="space-y-3 text-sm text-muted-foreground">
               <p>Semarang, Indonesia</p>
-              <a
-                href="mailto:pastilaku121@gmail.com"
-                className="hover:text-foreground transition-colors"
-              >
-                pastilaku121@gmail.com
-              </a>
             </div>
           </div>
         </div>

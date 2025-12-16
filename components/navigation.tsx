@@ -55,16 +55,9 @@ export function Navigation() {
             >
               About
             </Link>
-            <Link
-              href="#projects"
-              onClick={(e) => handleNavClick(e, "#projects")}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Projects
-            </Link>
             <Button asChild size="sm" className="ml-2">
-              <Link href="#contact" onClick={(e) => handleNavClick(e, "#contact")}>
-                Contact
+              <Link href="#projects" onClick={(e) => handleNavClick(e, "#projects")}>
+                Projects
               </Link>
             </Button>
           </div>
@@ -92,24 +85,10 @@ export function Navigation() {
             >
               About
             </Link>
-            <Link
-              href="#experience"
-              onClick={(e) => handleNavClick(e, "#experience")}
-              className="block text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-3 px-4 rounded-lg hover:bg-secondary"
-            >
-              Experience
-            </Link>
-            <Link
-              href="#projects"
-              onClick={(e) => handleNavClick(e, "#projects")}
-              className="block text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-3 px-4 rounded-lg hover:bg-secondary"
-            >
-              Projects
-            </Link>
             <div className="pt-2">
               <Button asChild className="w-full" onClick={() => setIsOpen(false)}>
-                <Link href="#contact" onClick={(e) => handleNavClick(e, "#contact")}>
-                  Contact
+                <Link href="#projects" onClick={(e) => handleNavClick(e, "#projects")}>
+                  Projects
                 </Link>
               </Button>
             </div>
